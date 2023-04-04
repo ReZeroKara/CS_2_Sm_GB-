@@ -24,7 +24,7 @@ void Main()
 
 void Task1()
 {
-    int number = GetRandom(100);
+    int number = GetRandom();
     int first = number / 100;
     int second = number % 10;
     
@@ -33,7 +33,7 @@ void Task1()
     Console.WriteLine("Получившееся число: " + first + second);
 }
 
-int GetRandom (int num)
+int GetRandom ()
 {
     return new Random().Next(100, 999);
 }
