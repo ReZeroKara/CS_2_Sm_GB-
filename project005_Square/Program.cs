@@ -26,8 +26,8 @@ void Task1()
     int first = Readint("a");
     int second = Readint("b");
 
-    int result1 = first * first;
-    int result2 = second * second;
+    double result1 = Math.Pow(first, 2);
+    double result2 = Math.Pow(second, 2);
 
     if (result1 == second)
     {
